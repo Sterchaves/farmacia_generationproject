@@ -22,7 +22,7 @@ public class Produto {
 	private Long id;
 	
 	@NotBlank(message = "O atributo nome é obrigatório!")
-	@Size(min = 2, max= 100, message = "O atributo nome deve conter no minimo 02 e no máximo 100 caracteres")
+	@Size(min = 3, max= 100, message = "O atributo nome deve conter no minimo 02 e no máximo 100 caracteres")
 	private String nome;
 	
 	@NotBlank(message = "O atributo descrição é obrigatório!")
